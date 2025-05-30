@@ -34,18 +34,20 @@ Track expenses, manage budgets, receive alerts, and gain insights with real-time
 
 src/
 ├── main/
-│ ├── java/
-│ │ └── com.example.finance/
-│ │ ├── config/ # Security & App Config
-│ │ ├── controller/ # REST Controllers
-│ │ ├── model/ # Domain Models
-│ │ ├── repository/ # Reactive Mongo Repositories
-│ │ ├── service/ # Business Logic
-│ │ └── scheduler/ # Scheduled Background Jobs
-│ └── resources/
-│ └── application.yml
+│   ├── java/
+│   │   └── com.example.finance/
+│   │       ├── config/          # Security & App Config
+│   │       ├── controller/      # REST Controllers
+│   │       ├── model/           # Domain Models
+│   │       ├── repository/      # Reactive Mongo Repositories
+│   │       ├── service/         # Business Logic
+│   │       └── scheduler/       # Scheduled Background Jobs
+│   └── resources/
+│       └── application.yml
 └── test/
-└── ... (Unit & Integration tests)
+    └── ... (Unit & Integration tests)
+
+
 
 
 
