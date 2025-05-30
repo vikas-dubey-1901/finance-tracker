@@ -1,0 +1,8 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/reactive_finance_db
+
+jwt:
+  secret: MySuperSecretKeyForJWTGeneration1234567890
+  expirationMs: 3600000  # 1 hour
